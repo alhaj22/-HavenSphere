@@ -14,7 +14,7 @@ const Footer = lazy(() => import("../components/Footer/Footer"));
 
 const HomePage = () => {
   return (
-    <div className="min-h-screen">
+    <div style={{ minHeight: "100vh" }}>
       <Suspense fallback={<SectionFallback compact />}>
         <Header />
       </Suspense>
